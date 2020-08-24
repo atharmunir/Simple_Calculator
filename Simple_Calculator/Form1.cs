@@ -23,15 +23,22 @@ namespace Simple_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1 = int.Parse(textBox1.Text);
-            int num2 = int.Parse(textBox2.Text);
+            if (textBox1.Text != "" && textBox2.Text != "")
+            {
+                int num1 = int.Parse(textBox1.Text);
+                int num2 = int.Parse(textBox2.Text);
 
-            int result = num1 + num2;
+                int result = num1 + num2;
 
-            //MessageBox.Show("Addition: " + result.ToString());
+                //MessageBox.Show("Addition: " + result.ToString());
 
-            label4.Text = ("=  " + result.ToString());
-            label4.Visible = true;
+                label4.Text = ("=  " + result.ToString());
+                label4.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Please fill both fields !");
+            }
         }
 
     }
