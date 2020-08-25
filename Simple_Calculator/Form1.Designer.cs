@@ -49,7 +49,7 @@
             this.AddButton.Location = new System.Drawing.Point(57, 264);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(75, 32);
-            this.AddButton.TabIndex = 0;
+            this.AddButton.TabIndex = 2;
             this.AddButton.Text = "+";
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.button1_Click);
@@ -60,7 +60,7 @@
             this.button2.Location = new System.Drawing.Point(138, 264);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 32);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 10;
             this.button2.Text = "-";
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.UseVisualStyleBackColor = true;
@@ -71,7 +71,7 @@
             this.button3.Location = new System.Drawing.Point(219, 264);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 32);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 10;
             this.button3.Text = "x";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -106,22 +106,25 @@
             // 
             // textBox1
             // 
+            this.textBox1.AcceptsTab = true;
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(194, 111);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 15);
-            this.textBox1.TabIndex = 6;
+            this.textBox1.Size = new System.Drawing.Size(125, 26);
+            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
+            this.textBox2.AcceptsTab = true;
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(194, 165);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(125, 28);
-            this.textBox2.TabIndex = 7;
+            this.textBox2.TabIndex = 1;
             // 
             // button4
             // 
@@ -129,7 +132,7 @@
             this.button4.Location = new System.Drawing.Point(300, 265);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 32);
-            this.button4.TabIndex = 8;
+            this.button4.TabIndex = 10;
             this.button4.Text = "÷";
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -151,7 +154,7 @@
             this.button1.Location = new System.Drawing.Point(178, 319);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 31);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
